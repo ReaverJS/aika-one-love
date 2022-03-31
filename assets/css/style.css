@@ -14,6 +14,18 @@ html, body {
 
 .container {
     max-width: 1200px;
+    padding: 0 16px;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,p {
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 44px;
 }
 
 
@@ -54,6 +66,169 @@ html, body {
 .hero .text-wrapper {
     color: white;
     max-width: 600px;
+    line-height: 1.4;
 }
 
-/* ------------------- /HERO  ------------------- */
+.hero h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+.hero h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.hero h2 {
+    text-align: left;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.hero h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* -------------------- /HERO -------------------- */
+
+/* -------------------- SPEAKER -------------------- */
+.speakers {
+    padding: 60px 20px;
+}
+
+.speakers h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.speakers-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.speakers-wrapper .speaker {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.speakers-wrapper .speaker img {
+    width: 40%;
+    max-width: 180px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.speakers-wrapper .speaker .text-wrapper {
+    width: 60%;
+    margin-right: 32px;
+}
+
+.speakers-wrapper .speaker h5 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.speakers-wrapper .speaker p {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+/* -------------------- /SPEAKER -------------------- */
+
+/* -------------------- PROGRAM -------------------- */
+
+.program {
+    padding: 60px 20px;
+}
+
+.program .timeline {
+    position: relative;
+}
+
+.program .point {
+    width: 50%;
+    position: relative;
+    padding-bottom: 20px;
+    padding-right: 32px;
+
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    min-height: 132px;
+}
+
+.program .point:nth-of-type(2n) {
+    margin-left: 50%;
+    padding-left: 32px;
+
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.program .point .dot {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid black;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.program .point:nth-of-type(2n) .dot {
+    left: 0;
+    right: unset;
+}
+
+.program .point:before {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 100%;
+    background-color: lightslategrey;
+    right: 14px;
+}
+
+.program .point:last-child:before {
+    display: none;
+}
+
+.program .point:nth-of-type(2n):before {
+    left: 14px;
+    right: unset;
+}
+
+.program .text-wrapper {
+    padding: 0 20px;
+}
+
+.program .text-wrapper .time {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.program .text-wrapper .desc {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.program .text-wrapper .presenter {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+/* -------------------- /PROGRAM -------------------- */
