@@ -1,21 +1,49 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
-    <title>Homsters Roadshow</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/old-hero.css">
+    <link rel="stylesheet" href="/assets/css/events.css">
+    <link rel="stylesheet" href="/assets/css/speakers-cards.css">
+    <link rel="stylesheet" href="/assets/css/cities-cards.css">
+    <link rel="stylesheet" href="/assets/css/program-cards.css">
+    <link rel="stylesheet" href="/assets/css/registration.css">
+    <link rel="stylesheet" href="/assets/css/partners.css">
+    <link rel="stylesheet" href="/assets/css/feedback.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+
+    <title>Hello, world!</title>
 </head>
 <body>
 
+<header>
+    <div class="container">
+        <img src="/assets/img/logo.png" alt="homsters.kz">
+
+        <a href="#" class="menu-link">
+            <img src="/assets/img/menu.png" alt="menu" class="menu-icon">
+        </a>
+
+        <nav>
+            <a href="#" data-scroll-to=".partners">Организаторы</a>
+            <a href="#" data-scroll-to=".events" class="special">Эвенты</a>
+        </nav>
+    </div>
+</header>
+
 <section class="hero">
     <div class="img-wrapper">
-        <img src="https://thumb.tildacdn.com/tild3666-3264-4161-a463-623566363732/-/format/webp/___1.png" alt="HOMSTERS EVENTS">
+        <img src="/assets/img/hero.jpg" alt="HOMSTERS EVENTS">
     </div>
     <div class="container">
         <div class="text-wrapper">
@@ -27,23 +55,134 @@
     </div>
 </section>
 
-<section class="speakers">
+<section class="events">
     <div class="container">
-        <h2>Спикеры</h2>
-        <div class="speakers-wrapper">
-            <div class="speaker">
-                <img src="https://static.tildacdn.info/tild3862-3733-4533-b731-383835376436/2.jpg"
-                     alt="Зульфия Гетманчук">
+        <h2>Эвенты</h2>
+
+        <div class="events-wrapper">
+            <div class="event" data-link="events/almaty-1.html">
                 <div class="text-wrapper">
-                    <h5>Зульфия Гетманчук</h5>
-                    <p>CEO, Homsters Central Asia</p>
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Алматы</p>
+                    <p>📌 Байзакова, 280</p>
                 </div>
+                <div class="date-wrapper">
+                    <h5>13</h5>
+                    <p>мая</p>
+                </div>
+            </div>
+
+            <div class="event" data-link="events/astana-1.html">
+                <div class="text-wrapper">
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Нур-Султан</p>
+                    <p>📌 Кассина, 141</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>16</h5>
+                    <p>мая</p>
+                </div>
+            </div>
+
+            <div class="event" data-link="events/shymkent-1.html">
+                <div class="text-wrapper">
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Шымкент</p>
+                    <p>📌 Жарокова, 34</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>19</h5>
+                    <p>мая</p>
+                </div>
+            </div>
+
+            <div class="event" data-link="events/atyrau-1.html">
+                <div class="text-wrapper">
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Атырау</p>
+                    <p>📌 Абая, 255</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>26</h5>
+                    <p>мая</p>
+                </div>
+            </div>
+
+            <div class="event" data-link="events/aktau-1.html">
+                <div class="text-wrapper">
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Актау</p>
+                    <p>📌 Вавилова, 12</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>29</h5>
+                    <p>мая</p>
+                </div>
+            </div>
+
+            <div class="event" data-link="events/karaganda-1.html">
+                <div class="text-wrapper">
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Караганда</p>
+                    <p>📌 Курмангазы, 2</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>7</h5>
+                    <p>июня</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="partners">
+    <div class="container">
+        <h2>Организаторы</h2>
+
+        <div class="partners-wrapper">
+            <div class="partner">
+                <img src="/assets/img/partner-a.jpg" alt="">
+            </div>
+            <div class="partner">
+                <img src="/assets/img/logo.jpg" alt="">
+            </div>
+            <div class="partner kjk-fix">
+                <img src="/assets/img/partner-k.png" alt="">
             </div>
         </div>
     </div>
 </section>
 
+<section class="feedback">
+    <div class="container">
+        <h2>Свяжитесь с нами</h2>
 
+        <div class="contacts-wrapper">
+            <a href="mailto:mussirova@homsters.kz">
+                <img src="/assets/img/email.png" alt="email">
+                <span>mussirova@homsters.kz</span>
+            </a>
+            <a href="tel:+77064118660">
+                <img src="/assets/img/phone.png" alt="phone">
+                <span>+7 706 411 8660</span>
+            </a>
+            <a href="//facebook.com">
+                <img src="/assets/img/facebook.png" alt="facebook">
+                <span>@homsters_kz</span>
+            </a>
+            <a href="//instagram.com">
+                <img src="/assets/img/instagram.png" alt="instagram">
+                <span>@homsters_kz</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>@reaverjs</p>
+</footer>
 
 <script src="/assets/js/script.js"></script>
 </body>
