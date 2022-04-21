@@ -1,18 +1,45 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
-    <title>Homsters Roadshow</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/old-hero.css">
+    <link rel="stylesheet" href="/assets/css/events.css">
+    <link rel="stylesheet" href="/assets/css/speakers-cards.css">
+    <link rel="stylesheet" href="/assets/css/cities-cards.css">
+    <link rel="stylesheet" href="/assets/css/program-cards.css">
+    <link rel="stylesheet" href="/assets/css/registration.css">
+    <link rel="stylesheet" href="/assets/css/partners.css">
+    <link rel="stylesheet" href="/assets/css/feedback.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+
+    <title>Hello, world!</title>
 </head>
 <body>
+
+<header>
+    <div class="container">
+        <img src="/assets/img/logo.png" alt="homsters.kz">
+
+        <a href="#" class="menu-link">
+            <img src="/assets/img/menu.png" alt="menu" class="menu-icon">
+        </a>
+
+        <nav>
+            <a href="#" data-scroll-to=".partners">Организаторы</a>
+            <a href="#" data-scroll-to=".events" class="special">Эвенты</a>
+        </nav>
+    </div>
+</header>
 
 <section class="hero">
     <div class="img-wrapper">
@@ -28,193 +55,84 @@
     </div>
 </section>
 
-
-<section class="speakers">
+<section class="events">
     <div class="container">
-        <h2>Спикеры</h2>
-        <div class="speakers-wrapper">
-            <div class="speaker">
-                <img src="/assets/img/speaker-2.jpg"
-                     alt="Зульфия Гетманчук">
+        <h2>Эвенты</h2>
+
+        <div class="events-wrapper">
+            <div class="event" data-link="events/almaty-1.html">
                 <div class="text-wrapper">
-                    <h5>Зульфия Гетманчук</h5>
-                    <p>CEO, Homsters Central Asia</p>
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Алматы</p>
+                    <p>📌 Байзакова, 280</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>13</h5>
+                    <p>мая</p>
                 </div>
             </div>
-            <div class="speaker">
-                <img src="/assets/img/speaker-1.jpg"
-                     alt="Виктор Микрюков">
+
+            <div class="event" data-link="events/astana-1.html">
                 <div class="text-wrapper">
-                    <h5>Виктор Микрюков</h5>
-                    <p>Президент, Ассоциация застройщиков Казахстана</p>
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Нур-Султан</p>
+                    <p>📌 Кассина, 141</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>16</h5>
+                    <p>мая</p>
                 </div>
             </div>
-            <div class="speaker">
-                <div class="placeholder">
-                    <img src="/assets/img/user.png"
-                         alt="Обсуждается">
-                </div>
+
+            <div class="event" data-link="events/shymkent-1.html">
                 <div class="text-wrapper">
-                    <h5>Обсуждается</h5>
-                    <p>Казахстанская жилищная компания</p>
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Шымкент</p>
+                    <p>📌 Жарокова, 34</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>19</h5>
+                    <p>мая</p>
                 </div>
             </div>
+
+            <div class="event" data-link="events/atyrau-1.html">
+                <div class="text-wrapper">
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Атырау</p>
+                    <p>📌 Абая, 255</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>26</h5>
+                    <p>мая</p>
+                </div>
+            </div>
+
+            <div class="event" data-link="events/aktau-1.html">
+                <div class="text-wrapper">
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Актау</p>
+                    <p>📌 Вавилова, 12</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>29</h5>
+                    <p>мая</p>
+                </div>
+            </div>
+
+            <div class="event" data-link="events/karaganda-1.html">
+                <div class="text-wrapper">
+                    <h5>Строим по новым правилам</h5>
+                    <p>🏦 Караганда</p>
+                    <p>📌 Курмангазы, 2</p>
+                </div>
+                <div class="date-wrapper">
+                    <h5>7</h5>
+                    <p>июня</p>
+                </div>
+            </div>
+
         </div>
-    </div>
-</section>
-
-
-<section class="program">
-    <div class="container">
-        <h2>Программа</h2>
-
-        <div class="cities">
-            <div class="city-wrapper">
-                <div class="date">
-                    <div class="number">13</div>
-                    <div class="month">мая</div>
-                </div>
-                <div class="text-wrapper">
-                    <p class="city">Алматы</p>
-                    <p class="place">Байзакова, 280</p>
-                </div>
-            </div>
-
-            <div class="city-wrapper">
-                <div class="date">
-                    <div class="number">16</div>
-                    <div class="month">мая</div>
-                </div>
-                <div class="text-wrapper">
-                    <p class="city">Нур-Султан</p>
-                    <p class="place">Байзакова, 280</p>
-                </div>
-            </div>
-
-            <div class="city-wrapper">
-                <div class="date">
-                    <div class="number">19</div>
-                    <div class="month">мая</div>
-                </div>
-                <div class="text-wrapper">
-                    <p class="city">Шымкент</p>
-                    <p class="place">Байзакова, 280 1 2 3 4 5 6 7 8 9</p>
-                </div>
-            </div>
-
-            <div class="city-wrapper">
-                <div class="date">
-                    <div class="number">26</div>
-                    <div class="month">мая</div>
-                </div>
-                <div class="text-wrapper">
-                    <p class="city">Атырау</p>
-                    <p class="place">Байзакова, 280</p>
-                </div>
-            </div>
-
-            <div class="city-wrapper">
-                <div class="date">
-                    <div class="number">29</div>
-                    <div class="month">мая</div>
-                </div>
-                <div class="text-wrapper">
-                    <p class="city">Актау</p>
-                    <p class="place">Байзакова, 280</p>
-                </div>
-            </div>
-
-            <div class="city-wrapper">
-                <div class="date">
-                    <div class="number">7</div>
-                    <div class="month">июня</div>
-                </div>
-                <div class="text-wrapper">
-                    <p class="city">Караганда</p>
-                    <p class="place">Байзакова, 280</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline">
-            <div class="point">
-                <div class="dot"></div>
-                <div class="text-wrapper">
-                    <p class="time">9:30 - 10:00</p>
-                    <p class="desc">Регистрация и сбор участников</p>
-                </div>
-            </div>
-            <div class="point">
-                <div class="dot"></div>
-                <div class="text-wrapper">
-                    <p class="time">10:00 - 10:20</p>
-                    <p class="desc">Аналитика и прогнозы рынка первичной недвижимости. Решения Homsters.kz</p>
-                    <p class="presenter">Зульфия Гетманчук, CEO Homsters Central Asia</p>
-                </div>
-            </div>
-            <div class="point">
-                <div class="dot"></div>
-                <div class="text-wrapper">
-                    <p class="time">10:20 - 10:50</p>
-                    <p class="desc">Новые законопроекты и правила</p>
-                    <p class="presenter">Виктор Микрюков, Ассоциация Застройщиков Казахстана</p>
-                </div>
-            </div>
-            <div class="point">
-                <div class="dot"></div>
-                <div class="text-wrapper">
-                    <p class="time">10:20 - 10:50</p>
-                    <p class="desc">Механизм получения гарантии КЖК</p>
-                    <p class="presenter">Спикер обсуждается</p>
-                </div>
-            </div>
-            <div class="point">
-                <div class="dot"></div>
-                <div class="text-wrapper">
-                    <p class="time">10:20 - 10:50</p>
-                    <p class="desc">Вопросы-Ответы</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="registration">
-    <div class="container">
-        <h2>Регистрация</h2>
-
-        <form action="/">
-            <div class="form-group">
-                <label for="name">Имя</label>
-                <input id="name" type="text" name="name">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input id="email" type="text" name="email">
-            </div>
-            <div class="form-group">
-                <label for="phone">Телефон</label>
-                <input id="phone" type="text" name="phone">
-            </div>
-            <div class="form-group">
-                <label for="company">Компания</label>
-                <input id="company" type="text" name="company">
-            </div>
-            <div class="form-group">
-                <label for="city">Город</label>
-                <select id="city" name="city">
-                    <option>Алматы</option>
-                    <option>Нур-Султан</option>
-                    <option>Шымкент</option>
-                    <option>Актобе</option>
-                    <option>Атырау</option>
-                    <option>Караганда</option>
-                </select>
-            </div>
-
-            <input type="submit" value="Отправить 🚀">
-
-        </form>
     </div>
 </section>
 
@@ -265,7 +183,6 @@
 <footer>
     <p>@reaverjs</p>
 </footer>
-
 
 <script src="/assets/js/script.js"></script>
 </body>
