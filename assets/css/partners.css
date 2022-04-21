@@ -29,6 +29,10 @@
     padding: 28px;
 }
 
+.homsters-fix {
+    padding: 28px;
+}
+
 @media (max-width: 991.98px) {
     .partners-wrapper .partner {
         width: 100%;
